@@ -35,7 +35,24 @@ header {
     margin-right: 40px;
     color: #64879e;
     text-transform: uppercase;
+    font-weight: bold;
 }
-.header-item:last-child{
-    margin-right: 0;
+/* .header-item:last-child{
+    margin-right: 0; */
+
+/* .header-item:nth-last-child(n-2){
+    margin-right: 30px;
+} */
+
+.right-header {
+    float: right;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 0 35px 35px 0;
+    background-color: #ffffff;
+    
+}
+
+.social-networks{
+    margin-right: 18px;
 }
