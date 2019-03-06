@@ -13,19 +13,41 @@ a {
 header {
 
     background-image: url(img/landscape.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
 }
 
+.top-panel {
 
+background: #ffffff;
+
+}
 .left-header {
-    border: 1px solid #ffffff;
-    padding-top: 14px;
-    padding-bottom: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    line-height: 40px;
+    background: #ffffff;
     border-radius: 35px 0 0 35px;
-    background-color: #ffffff;
+   
 }
+.right-header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 35px;
+    background: #ffffff;
+    border-radius: 0 35px 35px 0;
+    line-height: 40px;
+}
+
+
+
 .header-logo{
-    margin-right: 57px;
-    margin-left: 30px;
+    margin-right: 60px;
+    
 
 
 }
@@ -37,22 +59,44 @@ header {
     text-transform: uppercase;
     font-weight: bold;
 }
-/* .header-item:last-child{
-    margin-right: 0; */
 
-/* .header-item:nth-last-child(n-2){
-    margin-right: 30px;
-} */
 
-.right-header {
-    float: right;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    border-radius: 0 35px 35px 0;
-    background-color: #ffffff;
+.sign-in-block {
+    float: right;   
+    /* line-height: 40px; */
+    
+   
     
 }
 
 .social-networks{
     margin-right: 18px;
 }
+
+.site-name {
+    color:white;
+    text-align: center;
+}
+
+.title-main {   
+    margin-top: 196px;
+    font-size: 60px;
+}
+
+.item-text {
+    font-size: 18px;
+}
+
+
+.title-button {
+    color: #3f6b86;
+    background: #ffffff;
+    font-size: 24px;
+    border:none;
+    border-radius: 10px;
+    padding: 15px 35px 15px 35px ;
+    font-weight: bold;
+    border-radius: 50px;
+    /* line-height: 24px; */
+}
+    
