@@ -52,7 +52,7 @@
            
 
         </div>
-        <div class="col-sm-3 d-flex align-items-center justify-content-end " >
+        <div class="col-sm-3 col-sx-6 d-flex align-items-center justify-content-end " >
             
             <i class="fas fa-film "></i>
             <div class="item-text">Make a challengs</div>            
@@ -65,14 +65,27 @@
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-12 choose-climb">
+            <div class="col-sm-12 choose-climb">  <!---не знаю как правильно для маленкьих--->
                 <img src="img/Mountain.png" alt="Mountain">
                     <div class="summit-title">Begin your next climb by choseing a summit</div>
-                    <div class="summit-choose">You can use 
-                        <button class="btn btn-secondary dropdown-toggle" type="button">filters</button>to have more percise search
-                        
+                    <div class="summit-choose">You can use  
+                        <button class="btn btn-secondary dropdown-toggle filter-button" type="button">filters</button> to have more percise search
+                    </div>  
+                    <button type="button" class="btn btn-primary start-button">Start</button>
 
-            </div>  
+        </div>
+    </div>
+</section>
+
+<section class="events">
+    <div class="container-fluid">
+        <div class="row justify-content-between">
+            <div class="col-sm-3 d-flex align-items-center event-title">
+                <i class="far fa-calendar-minus"></i> ONGOING INVETS</div>
+            <div class="col-sm-3"><form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="&#128269;Find event" aria-label="Search">
+            </form>
+            </div>
         </div>
     </div>
 </section>

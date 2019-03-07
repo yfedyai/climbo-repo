@@ -123,6 +123,7 @@ background: #ffffff;
 .start {
     background: #ffffff;
     padding-top: 100px;
+    padding-bottom: 110px;
 }
 
 .choose-climb {
@@ -132,4 +133,63 @@ background: #ffffff;
 .summit-title{
     font-size: 30px;
     color: #858e91;
+}
+
+.filter-button {
+    background-color:#e5e5e5;
+    border-radius: 30px;
+    border:none;
+    color:#727272;
+}
+
+.summit-choose {
+    font-size: 16px;
+    color:#9f9f9f;
+}
+
+.start-button {
+    margin-top: 75px;
+    font-size: 24px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 40px;
+    border: none;
+    text-transform: uppercase;
+    background:#2f5f7c
+}
+
+
+.events {
+    background: url(img/event-bg.png) no-repeat center;
+    background-size: cover;
+    padding-top: 80px;
+    padding-left: 175px;
+    padding-right: 175px;
+    padding-bottom: 100px;
+    color:#ffffff;
+    
+}
+
+.fa-calendar-minus {
+    color:#ffffff;
+    font-size:20px;
+    margin-right: 10px;
+}
+
+.event-title {
+    font-size: 18px;
+}
+
+.form-inline .mr-sm-2 {
+    border-radius: 40px;
+    color: #ffffff;
+    background: transparent;
+}
+
+.form-inline .mr-sm-2::placeholder {
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: left;
+    
 }
