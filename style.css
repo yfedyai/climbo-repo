@@ -276,3 +276,22 @@ background: #ffffff;
 .event-button {
     text-align: right;
 }
+
+
+/* TOP CLIMBERS SECTION */
+
+.top-climbers {
+    text-align: center;
+    
+}
+
+
+.climber-name {
+    width: 270px;
+    text-align: left;
+}
+
+.climber-comment {
+    width:500px;
+    text-align: left;
+}
