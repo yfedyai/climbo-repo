@@ -279,16 +279,83 @@ background: #ffffff;
 
 .top-climbers {
     text-align: center;
+    padding-top: 65px;
+    padding-bottom: 85px;
     
 }
 
 
+.climber-container {
+    margin-top: 20px;
+    
+}
+
+
+
 .climber-name {
-    width: 270px;
-    text-align: left;
+    
+    max-width: 290px;   
+    padding-top:10px;  
+    font-size: 18px;
+    text-align:center;
+    position: relative;
+    counter-reset: item; 
+    color: #305f7d;
+    font-weight: bold;
+    box-shadow:-2px -2px 3px 0px #c0bebe;
+    border-top-right-radius:50px; 
+    background-color: white;
 }
 
 .climber-comment {
-    width:500px;
+    max-width:500px;  
     text-align: left;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 0 0 3px 2px #c0bebe;
+    
+
+
+}
+
+.climber-logo {
+    position: absolute;
+    left: 5px;
+    top: 20px;
+}
+
+.climber-name:before {
+    position: absolute;
+    counter-increment:item;
+    content: counter(item);
+    display: block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid #305f7d;
+    background-color: #305f7d;
+    color: #ffffff;
+    left:50px;
+    bottom:-50px;
+    z-index: 2;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.climber-name > p {
+margin: 0;
+padding-left: 10px;
+}
+
+.climber-comment > p {
+    padding-left: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.fa-star {
+    color: #ffc000;
 }
