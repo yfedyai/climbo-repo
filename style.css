@@ -67,7 +67,7 @@ background: #ffffff;
 
 .sign-in-block {
     float: right;   
-    /* line-height: 40px; */
+    line-height: 40px;
     
    
     
@@ -379,12 +379,11 @@ padding-left: 10px;
         padding-top: 15px;
         padding-bottom: 15px;  
         padding-left:0;
-        padding-right: 0;
-        line-height: 40px;
+        padding-right: 0;  
         background: #ffffff;
         border-radius: 35px 35px 35px 35px;
         text-align: center;
-        line-height: 30px;
+       
 
         
     }
@@ -394,6 +393,7 @@ padding-left: 10px;
     .header-item {
         display: block;
         margin: 0;
+        line-height: 30px;
     }
 
     .right-header {
@@ -402,7 +402,7 @@ padding-left: 10px;
         border-radius: 35px 35px 35px 35px;
         padding-right: 0;
         padding-left: 0;
-        line-height: 30px;
+        
     }
 
     .sign-in-block {
