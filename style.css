@@ -413,6 +413,19 @@ padding-left: 10px;
         margin-right:0px;
     }
 
+    .site-name {
+        margin-top: 80px;
+    }
+    
+    .start {
+        padding: 50px 0 50px 0;
+    }
+
+
+    .mountain-list {
+        margin-top: 30px;
+    }
+
     .mountain-item {
         border-bottom: 5px#7f8996 solid;
         padding-bottom:0;
@@ -437,8 +450,15 @@ padding-left: 10px;
     }
 
     .events {
+    padding-top:40px;
+    padding-bottom: 40px;
     padding-left: 0;
     padding-right: 0; 
+    }
+
+    .top-climbers{
+        padding-top: 30px;
+        padding-bottom: 40px;
     }
 
 }
